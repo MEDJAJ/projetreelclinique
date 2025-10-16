@@ -760,3 +760,21 @@ bottom: 10px;
     border-radius: 50%;
     color: #FF6F61;
 }
+
+
+
+
+
+
+
+
+.appointement{
+    background-image: url(/images/picture.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    bottom: 100px;
+    top: 80px;
+}
