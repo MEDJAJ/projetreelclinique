@@ -655,3 +655,108 @@ color: #2677BC;
     display: flex;
     justify-content: space-around;
 }
+.div1pricing .prc .span1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #2677BC;
+   
+}
+.div1pricing  h3{
+    color: #2677BC;
+    margin-bottom: 20px;
+}
+.div1pricing .fea{
+    color: #2672BC;
+    margin-bottom: 10px;
+}
+
+.div1pricing i{
+    color: #2ECC71;
+}
+
+.pricing{
+   padding-bottom: 100px;
+   position: relative;
+}
+.div1pricing .Features{
+    padding: 10px;
+    width: 200px;
+    border: 2px solid #FF6F61;
+    border-radius: 20px;
+    text-align: center;
+    background-color: transparent;
+    color: #FF6F61;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.div1pricing .plan{
+    padding: 10px;
+    width: 200px;
+    border: 2px solid #FF6F61;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #FF6F61;
+    color: white;
+}
+
+.div1pricing .or{
+    margin-left: 90px;
+    color: #7a7979;
+    margin-bottom: 20px;
+}
+
+.prc{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.div1pricing img{
+    margin-bottom: 10px;
+}
+.div1pricing .vrai{
+    margin-bottom: 10px;
+    color: #7a7979;
+}
+.prc .span2{
+   color: #7a7979; 
+}
+.div1pricing .paragcard{
+      color: #7a7979; 
+}
+.div1pricing{
+    border: 1px solid  #b5b4b4;
+    padding: 20px;
+   border-radius: 20px;
+}
+
+.div1pricing .plan i{
+    color: white;
+    margin-left: 10px;
+}
+.div1pricing .Features i{
+    color: #FF6F61;
+    margin-left: 10px;
+}
+.div1pricing h3 span{
+color:  #88bcf0;
+}
+
+.pricing .btn7{
+    padding: 13px;
+    background-color: #FF6F61;
+    border-radius: 100px;
+    border: 0;
+    color: white;
+   position: absolute;
+bottom: 10px;
+  left: 510px;
+ width: 200px;
+ margin-top: -50px;
+}
+
+.pricing .btn7 i{
+    background-color: white;
+    padding: 6px;
+    border-radius: 50%;
+    color: #FF6F61;
+}
