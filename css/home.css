@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body button{
+    cursor: pointer;
+}
 .header{
     display: flex;
     justify-content: space-around;
@@ -36,6 +38,7 @@
 .search i{
     color: white;
     margin-left: 10px;
+    cursor: pointer;
 }
 .nav li a{
     text-decoration: none;
@@ -50,6 +53,13 @@
     width: 100%;
     height: 130vh;
     position: relative;
+}
+.picture #pointer{
+    position: absolute;
+    color: #FF6F61;
+    left: 330px;
+    top: 78px;
+   
 }
 .contenutext{
     position: absolute;
@@ -230,6 +240,41 @@ margin-top: 50px;
     margin-bottom: 100px;
     
 }
+
+.pictureaboutus{
+    background-image:url(/images/bgpetite.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+    position: relative;
+}
+#pointerabout{
+    position: absolute;
+    top: 80px;
+    left: 420px;
+     color: #FF6F61;
+}
+#pointerdoctors{
+    position: absolute;
+    top: 80px;
+    left: 525px;
+     color: #FF6F61;
+}
+#pointerservices{
+       position: absolute;
+    top: 80px;
+    left: 610px;
+     color: #FF6F61;
+}
+
+#pointerappointement{
+       position: absolute;
+    top: 80px;
+    left: 730px;
+     color: #FF6F61;
+}
+
 
 
 .section1{
@@ -901,7 +946,7 @@ outline: 0;
     width: 150px;
     height: 130px;
     margin-bottom: 20px;
-    
+
 }
 .footer h4{
     color: #2677BC;
@@ -927,6 +972,7 @@ outline: 0;
 .footer .div1 .icones i{
     color: #2e95da;
     margin-right: 15px;
+    cursor: pointer;
 }
 .footer p{
     margin-top: 20px;
@@ -952,3 +998,9 @@ outline: 0;
     background-color: transparent;
     color: #2e95da;
 }
+.footer .div1 .subscribe:hover{
+    background-color: #2e95da;
+    color: white;
+}
+
+
