@@ -47,7 +47,7 @@ body button{
     color: white;
 }
 .picture{
-    background-image: url(/images/picture.png);
+    background-image: url(../images/picture.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -227,7 +227,7 @@ margin-top: 50px;
 /* About Us */
 
 .aboutus{
-  background-image: url(/images/imageabout.png);
+  background-image: url(../images/imageabout.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -242,7 +242,7 @@ margin-top: 50px;
 }
 
 .pictureaboutus{
-    background-image:url(/images/bgpetite.png);
+    background-image:url(../images/bgpetite.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -472,7 +472,7 @@ font-weight: bold;
     margin-bottom: 15px;
 }
 .services{
-     background-image: url(/images/imageabout.png);
+     background-image: url(../images/imageabout.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -614,7 +614,7 @@ bottom: 10px;
 }
 
 .trusteddoctor{
-    background-image: url(/images/trusdoctor.png);
+    background-image: url(../images/trusdoctor.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -816,7 +816,7 @@ Appointement */
 
 
 .appointement{
-    background-image: url(/images/picture.png);
+    background-image: url(../images/picture.png);
     background-position: center;
     background-size: cover;
     width: 100%;
