@@ -773,19 +773,20 @@ bottom: 10px;
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 700px;
-
+    height: 900px;
     margin-top: 80px;
-    margin-bottom: 100px;
+   
     background-color: white;
+    position: relative;
 }
 .container{
     background-color: white;
     position: relative;
     top: 100px;
-    height: 300px;
-    left: 100px;
+    height: 700px;
+    left: 120px;
   width: 80%;
+  border-radius: 20px;
 }
 .appointement .textappointement{
 background-color: #2ECC71;
@@ -797,6 +798,7 @@ background-color: #2ECC71;
     position: absolute;
     left: 70px;
     top: 30px;
+    color: white;
 }
 .appointement h1{
     position: absolute;
@@ -808,6 +810,145 @@ background-color: #2ECC71;
 
 .formulaire{
     position: absolute;
-    left: 165px;
+    left: 130px;
+    width: 1000px;
+   bottom: 120px;
+
+}
+.formulaire  .completinput{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.formulaire  .completselect{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.formulaire  .completinput input{
+   padding: 10px;
+   width: 360px;
+   border: 1px solid rgb(148, 144, 144);
+   border-radius: 10px;
+}
+.formulaire  .completinput input:focus{
+  
+   border: 2px solid rgb(54, 158, 193);
+ outline: 0;
 }
 
+.formulaire  .completselect select{
+    padding: 10px;
+   width: 360px;
+   border: 1px solid rgb(148, 144, 144);
+   border-radius: 10px;
+   color: rgb(148, 144, 144);
+}
+.formulaire  .completselect select:focus{
+    outline: 0;
+    border: 2px solid rgb(54, 158, 193);
+}
+.formulaire .textarea{
+ margin-left: 70px;
+
+}
+.formulaire .textarea textarea{
+ border-radius: 5px;
+border: 1px solid rgb(148, 144, 144);
+
+}
+.formulaire .textarea textarea:focus{
+
+border: 2px solid rgb(54, 158, 193);
+outline: 0;
+}
+
+.formulaire .btn8{
+    padding: 10px;
+    width: 875px;
+    border: 2px solid #FF6F61;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #FF6F61;
+    color: white;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.formulaire .btn8 i{
+    color: white;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 460px;
+    background-color: #F5F8FA;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding-top: 40px;
+   
+}
+
+.footer .div1 img{
+    width: 150px;
+    height: 130px;
+    margin-bottom: 20px;
+    
+}
+.footer h4{
+    color: #2677BC;
+}
+.footer a{
+    color: #63BBE9;
+    text-decoration: none;
+    font-size: 13px;
+}
+.footer .div2 .location{
+    margin-top: 50px;
+}
+.footer p{
+    margin-top: 10px;
+}
+.footer .div2 .danap{
+    color: rgb(148, 144, 144);
+    font-size: 10px;
+}
+.footer .div1 .icones{
+   margin-top: 60px;
+}
+.footer .div1 .icones i{
+    color: #2e95da;
+    margin-right: 15px;
+}
+.footer p{
+    margin-top: 20px;
+    color: #2677BC;
+    font-size: 12px;
+}
+.footer input{
+    padding: 10px;
+    width: 200px;
+    border-radius: 15px;
+    border: 1px solid rgb(154, 149, 149);
+}
+.footer input:focus{
+    outline: 0;
+    border: 1px solid #2677BC;
+}
+
+.footer .div1 .subscribe{
+    width: 100px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #2e95da;
+    background-color: transparent;
+    color: #2e95da;
+}
