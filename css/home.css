@@ -526,7 +526,7 @@ font-weight: bold;
 
 
 
-
+/* Doctors */
 .doctors{
     width: 95%;
     height: 1000px;
@@ -671,6 +671,8 @@ bottom: 30px;
    
 }
 
+
+/* Pricing */
 
 .pricing .textpricing{
 background-color: #2ECC71;
